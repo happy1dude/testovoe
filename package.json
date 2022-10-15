@@ -1,0 +1,38 @@
+{
+	"name": "test-task",
+	"version": "1.0.0",
+	"scripts": {
+		"dev-server": "webpack serve --progress --config build/webpack.config.devServer.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.13.14",
+		"@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.7",
+		"@babel/preset-env": "^7.13.12",
+		"@types/core-js": "^2.5.2",
+		"@types/es6-collections": "^0.5.31",
+		"axios": "^1.1.2",
+		"babel-loader": "^8.0.5",
+		"core-js": "^3.8.3",
+		"css-loader": "^6.7.1",
+		"html-webpack-plugin": "^5.5.0",
+		"ignore-emit-webpack-plugin": "^2.0.6",
+		"mini-css-extract-plugin": "^2.5.3",
+		"sass": "^1.32.7",
+		"sass-loader": "^12.0.0",
+		"style-loader": "^3.3.1",
+		"terser-webpack-plugin": "^5.3.1",
+		"ts-loader": "^9.2.8",
+		"ts-node": "^10.5.0",
+		"typescript": "~4.5.5",
+		"vue": "^3.2.37",
+		"vue-class-component": "^8.0.0-0",
+		"vue-loader": "^17.0.0",
+		"vue-template-compiler": "^2.6.14",
+		"vuex": "^4.1.0",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.2"
+	}
+}
